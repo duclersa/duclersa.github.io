@@ -1,0 +1,164 @@
+* {-
+	margin: 0;
+	padding: 0;
+} 
+
+
+body {
+	
+	width: 85%;
+	
+}	
+/* nav container */
+
+
+
+#box{
+	background-color: white;
+	width: 80%;
+	padding: 90px;
+	height: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	opacity: 0.8;
+}
+h1 {
+	color: blue;
+	padding: 15px;
+	font-style: times new roman;
+} 
+
+#Pages {
+background-color: white;
+	width: 65%;
+	padding: 90px;
+	height: 220px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	opacity: 0.7;
+	font-size: 16;
+	font-family: Helvetica;
+} 
+h2 {
+	padding-bottom: 30px;
+	color: Black;
+} 
+/* This is for the div element in help page and style for form in div element */
+#Help{
+background-color: white;
+	width: 65%;
+	padding: 120px;
+	height: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	opacity: 0.7;
+	font-size: 16;
+	font-family: Helvetica;
+}
+#Software {
+background-color: white;
+	width: 65%;
+	padding: 90px;
+	height: 240px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	opacity: 0.7;
+	font-size: 16;
+	font-family: Helvetica;
+} 
+#FAQ {
+	background-color: white;
+	width: 65%;
+	padding: 90px;
+	height: 320px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	opacity: 0.7;
+	font-size: 16;
+	font-family: Helvetica;
+	color: Blue;
+} 
+#box button {
+      Background-color: Blue;
+       color: White;
+       margin-left: 40%;	   
+	   margin-right: 40%;
+}
+#CreateAccount {
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 0.9;
+	background-color: White;
+	color: Blue;
+	Width: 65%;
+	height: 100%;
+	margin-top: 40px;
+}
+#login {
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 0.9;
+	background-color: White;
+	color: Blue;
+	Width: 65%;
+	height: 50%;
+	margin-top: 60px;
+}
+ 
+
+	 
+ }
+
+	
+}
+
+#connect { 
+      width: 150%;
+	 height: 100%;
+	 margin-top: 100px;
+	 margin-right: 0%;
+	 margin-left: 0%;
+	 border-style: ridge;
+	 text-align: center;
+}
+#connect h2{
+	 color: white;
+	 text-align: center;
+} 
+
+#footer {
+	  width: 110%;
+	  background-color: blue;
+	  }
+			
+.vertical-menu {
+	margin-top: 6%;
+	width: 160px;
+	position: ;
+	left: 0;
+	background-color: blue;
+	color: white;
+	overflow-x: hidden;
+	padding: 12px;
+	display: block;
+	float: left;
+}
+.vertical-menu a {
+	background-color: blue;
+	color: white;
+	display: block;
+	padding: 12px;
+	text-decoration: none;
+	
+}
+.vertical-menu a:hover {
+  color: blue;
+  background-color: white;
+}
+
+

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8"/>
+	<title>About Project Manager</title>
+	<link href="WebStyle.css" rel="stylesheet" type="text/css" media="all" />
+	
+	<style>
+	
+#navbar {
+     height: 100%;
+	background-color: White;
+	font-family: Arial;
+	width: 124%;
+	margin-top: 10%;
+	margin-left: 25%;
+
+	
+}
+#navbar a {
+	background-color: White;
+	color: black;
+	display: block;
+	padding: 25px;
+	text-decoration: none;
+	float: left;
+	font-size: 20px;
+	Font-family: Arial;
+}
+#navbar a:hover {
+  color: white;
+  background-color: black;
+  
+}
+  a:hover{
+   color: white;
+   background-color: snow;
+ }
+ 
+
+ div.container {
+      width: 30%;
+      margin-top: 15%;
+      text-align: enter;
+	  color: white;
+	  padding: 10px 20px;
+	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	  } 
+
+input {
+  padding: 6px;
+  border: solid;
+  border-color: gray;
+  margin-top: 6%;
+  float: right;
+  
+  font-size: 20px;
+}	 
+
+div input {
+   font-size: 13px;
+	 }
+	 
+h2 {
+ font-size: 18px;
+ color: black;
+ 
+ } 
+	</style>
+     </head>
+
+<body>
+<!--This is going to be Navigation bars -->
+
+<!--This is the Navigation bar & sign up and sign in links-->
+	 <a href="CreateAccount.html" style="color: black; text-decoration: none; margin-left: 43%; font-size: 25px;">Register</a>
+	  <a href="Login.html" style="color: black; text-decoration: none; margin-left: 7%; font-size: 25px;" >SignIn</a>
+	 
+
+	
+<input type="text" placeholder="Search.."> 	  
+ <div id="navbar"> 
+	  <a href="index.html">Home </a>
+	  <a href="About.html">About</a>
+	  <a href="Features.html">Features</a>
+	  <a href="Contact.html">Contact Us</a>
+      <a href="Help.html">Help</a>
+	   <a href="GettingStarted.html">Getting Started</a>
+	
+	</div>
+	<br/>
+	
+	<div style="height: 65%; width: 117%; color: white; background-color: black; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ">
+<h1 style="color: white; text-align: center; font-family: Courier New; font-size: 400%; margin-top: 13%; ">Contact us or Give us Feedback</h1>
+</div>	
+		
+<div class="container " style="background-color: black;">
+      <p>Main Developer & Researcher</p>
+	  <p>Saniora R. Duclervil</p>
+	  <p>Phone: 908-324-2241</p>
+	  <p>Email: duclersa@kean.edu</p>
+	  </div>
+  
+<div class="container" style="float: right; margin-top: -28%;" style="background-color:  gray; height: 50%; width: 30%;">
+<form  method="post" action="localhost" autocomplete ="on">  
+
+<h2 style="font-size= 16" style="padding: 30px;">
+  <label>
+  Name: <input name="Name" type="text" size="25" maxlength="30"  autofocus  autocomplete="on" placeholder="Name" >
+  </label>
+  </h2>
+ 
+  <h2 style="font-size =16 padding: 30px;">
+     <label>
+  Email Address: <input name="email" type="text" size="25" 
+	 placeholder="name@domain.com"  autofocus required autocomplete=
+	 "on" />
+	 </label>
+	 </h2>
+	  <h2 style="font-size=16  padding: 30px;" >
+	 <label>
+	     TelephoneNumber: <input name="tel" placeholder="(###) ###-####" 
+		pattern="\(\d{3}\) +\d{3}-\d{4}" required />
+		
+	</label>
+  </h2>
+	 
+	 
+<h2 style="font-size=16 padding: 30px;">
+			<h2>Feedback</h2>
+			<textarea placeholder="Enter Feedback here"  name="msg" maxlength="80"; style="float: right; margin-top:-23%; height: 30%;">
+			 
+			</textarea>
+			</h2>
+	         <input value="Submit" type="submit" style="height: 15%; width: 15%; background-color: black; color: white">
+	         <input value="Clear" type="reset" style="height: 15%; width: 15%; background-color: black; color: white">
+			 
+		</form>
+ 
+</div>	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+</body>
+</html>
